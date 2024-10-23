@@ -1,0 +1,91 @@
+.carousel-item {
+  height: 100vh; 
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-bg {
+  background-color: rgba(2, 103, 255, 1);
+}
+
+.navbar-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; 
+}
+
+.navbar-nav .nav-link {
+  color: white !important; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d1fd0d !important; 
+}
+
+.content {
+  margin-top: 80px; 
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ); 
+  z-index: 1; 
+  
+}
+
+
+
+
+/* halaman cek harga */
+.box {
+    background-color: white;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* hasil check harga */
+.price-summary {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.price-summary h4 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.price-summary .total-price {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-summary .label {
+    float: left;
+}
+
+.price-summary .value {
+    float: right;
+    font-weight: bold;
+}
+
+.price-summary .price-row {
+    margin-bottom: 10px;
+    clear: both;
+}
